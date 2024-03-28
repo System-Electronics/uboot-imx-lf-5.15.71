@@ -204,8 +204,8 @@
 
 #define CONFIG_MMCROOT			"/dev/mmcblk2p2"  /* default device is eMMC */
 
-/* Totally 8GB DDR */
-#define CFG_SYS_SDRAM_BASE		0x40000000
+/* Totally 8GB DDR (b) */
+#define CONFIG_SYS_SDRAM_BASE	0x40000000
 #define PHYS_SDRAM			0x40000000
 #define PHYS_SDRAM_SIZE			0x100000000	/* 4 GB */
 #define PHYS_SDRAM_2			0x140000000
